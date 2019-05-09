@@ -10,15 +10,6 @@ p {
   font-family: Georgia, serif;
   font-size: 14px}      
 
-#container {
-	width: 1000px;
-	margin: 0;
-	padding-top: 0;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 50px;
-	background: #ffffff;
-}
 
 #navbar {
 	width: 100%;
