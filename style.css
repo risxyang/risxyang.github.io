@@ -7,6 +7,10 @@ body {
 a {color: #2b2bf6;
  }   
 
+p {
+  font-family: Georgia, serif;
+  font-size: 14px}      
+
 #container {
 	width: 1000px;
 	margin: 0;
@@ -22,9 +26,6 @@ a {color: #2b2bf6;
 	background-color: #d7eded;
 	position: relative;
 	top: 0;
-	font: "MS Gothic";
-	font-size: 14px;
-	color: #263333;
 	text-align: right;
 	padding: 50px;
 }
@@ -37,8 +38,7 @@ a {color: #2b2bf6;
 	border: 0;
 	float: left;
 	background: #ffffff;
-	font: "MS Gothic";
-	font-size: 14px
+
 }           
 
 #content {
@@ -50,10 +50,7 @@ a {color: #2b2bf6;
 	float: left;
 	background: #ffffff;
 }
-
-#content p {
-	font: "MS Gothic";
-	font-size: 14px}        
+  
 
 #footer {
 	width: 900px;
