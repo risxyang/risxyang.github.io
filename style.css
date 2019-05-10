@@ -35,7 +35,7 @@ p { font-family: Geneva, Tahoma, Verdana, sans-serif;
 	line-height: 20px; } 
 
 h1, h2, b {
-	color: #32484f;
+	color: #000000;
 	}
 
 i {
@@ -43,16 +43,21 @@ i {
 	color: ##8bacb7;
 }
 
+img {
+	object-fit: cover;
+	object-position: 50 50;
+}
 
 img.thumbnail {
-	width: 266px;
-	height: 266px;
+	height: 300px;
+	object-fit: cover;
+	object-position: 100% 50;
 }
 
 
 #navbar {
-	height: 40px;
-	background-color: #d7eded;
+	height: 20px;
+	background-color: #ffffff;
 	position: relative;
 	text-align: right;
 	padding: 10px;
@@ -76,8 +81,8 @@ img.thumbnail {
 
 #content {
 	width: 70%;
-	padding: 20px;
-	padding-left: 0px;
+	padding-left: 20px;
+	padding-right: 0px;
 	margin: 0;
 	border: 0;
 	background: #ffffff;
@@ -94,21 +99,30 @@ img.thumbnail {
 #photos li {
 	list-style: none;
 	margin-right: 10px;
-	margin-top: 5px;
+	margin-top: 0px;
 	border: 0;
-	padding: 0;
+	padding: 10px;
+	padding-top: none;
 	display: inline;
 	float: left;
-    opacity: .7;
+    opacity: 1;
     transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;
+    overflow: hidden;
 }
 
 #photos li:hover {
-    opacity: 1;
+    opacity: 0.5;
 }
+
+#photos li:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 #footer {
 	width: auto;
@@ -122,7 +136,7 @@ img.thumbnail {
 	text-align: right;
 	clear:both;}  
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   #navbar, #sidebar, #content, #footer {
     width: 100%;
   }
@@ -131,4 +145,58 @@ img.thumbnail {
   width: 60%
 	}
 
+}*/
+
+
+
+/* Tablet Styles */
+@media only screen and  (max-width: 640px) {
+	#sidebar {
+	float: left;
+	width: 90%;
+	padding-top: 20px;
+	}
+
+	#content {
+	width: 100%;
+	padding-left: 40px;
+	}
+
+	img.thumbnail {
+		width: 90%;
+	}
+}
+
+
+/*small desktop*/
+@media only screen and (min-width: 641px) and (max-width: 1200px) {
+	#sidebar {
+	float: left;
+	width: 90%;
+	padding-top: 20px;
+	}  
+
+	#content {
+	padding: 0;
+	padding-left: 40px;
+	width: 100%;
+
+	}
+
+	#photos li {
+	width: 25%;
+
+	}
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1201px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  #photos li {
+	width: 30%;
 }                             
