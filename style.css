@@ -44,19 +44,28 @@ h1, h2 {
 	color: #72ccca;
 }
 
+h3 {
+	color: #313738;
+	font-size: 14px;
+	font-style: bold;
+	font-style: italic;
+	margin-top: -10px;
+}
+
 th, td {
   padding: 15px;
 }
 
 
 img {
+	border-radius: 50%;
 	object-fit: cover;
 	object-position: 50 50;
 
 }
 
 img.thumbnail {
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	height: 300px;
 	object-fit: cover;
 	object-position: 100% 50;
