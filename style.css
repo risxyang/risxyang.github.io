@@ -8,6 +8,7 @@ body {
 
 a:link {
 	text-decoration: none;
+	 font-family: "Trebuchet MS", sans-serif;
 	color: #72ccca;
 }
 
@@ -136,7 +137,9 @@ img.display {
 	position: relative;
 	text-align: right;
 	padding: 10px;
+	padding-top: 20px;
 	width: auto;
+
 }
 
 
@@ -257,6 +260,7 @@ img.display {
 	padding: 20px;
 	border: 0;
 	position: relative;
+
 	background: #ffffff;
 	text-align: right;
 	clear:both;}  
