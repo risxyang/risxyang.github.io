@@ -1,340 +1,48 @@
-body {
-	background: #ffffff;
-	 margin: 0;
-	 font-family: "Times New Roman", serif;
-  	font-size: 16px
-	}
+	body {background-color: #1f1f1f;}
+	h3 { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; padding-top: 5%; letter-spacing: .5em;} 
+	h4 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+	h5 { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; background-color: #2e2e2e; }
+	h6 { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; background-color: #2e2e2e; padding-top: 1%; padding-bottom: 1%; }
 
+	p { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+	ul { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;  }
+	li { padding-bottom: 2%; }
 
-a:link {
-	text-decoration: none;
-	 font-family: "Trebuchet MS", sans-serif;
-	color: #72ccca;
-}
+	a:link { background-color: #363636; color: #dbdbdb;}
+	a:visited { background-color: #363636; color: #dbdbdb;}
 
-a:visited {
-	color: #72ccca;
-}
+	img { padding-bottom: 5%; padding-right: 5%; }
 
-a.bold:link {
- 	background-color: #72ccca;
- 	color: #ffffff;
- 	padding: 2px;
- 	padding-left: 6px;
- 	padding-right: 6px;
- 	transition: all .25s ease;
- 	-webkit-transition: all .25s ease;
- 	-moz-transition: all .45s ease;
- 	-ms-transition: all .45s ease;
- }   
-
-a.normal:link {
-	text-decoration: none;
+	.navbar {
 	background-color: none;
-	color: #000000;
-}
-
-a.normal:visited {
-	text-decoration: none;
-	background-color: none;
-	color: #000000;
-}
-
- a.bold:visited{
- 	color: #ffffff;
- }
-
- a.bold:hover{
- 	opacity: 0.5;
- 	cursor: default;
- 	transition: all .3s linear;
- 	-webkit-transition: all .3s ease;
- 	-moz-transition: all .3s ease;
- 	-ms-transition: all .3s linear;
- }
-
-p { font-family: "Trebuchet MS", sans-serif;
-	font-size: 15px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-	color: #2e3030; } 
-
-
-h1 {
-
-	font-size: 55px;
-	font-family: Cambria;
-
-}
-
-h1, h2 {
-	color: #72ccca;
-}
-
-h3 {
-	color: #313738;
-	font-size: 14px;
-	font-style: bold;
-	font-style: italic;
-	margin-top: -10px;
-}
-
-h4 {
-	font-size: 55px;
-	color: #72ccca;
-	text-align: center;
-}
-
-h5 {
-	color: #313738;
-	font-size: 20px;
-	font-style: bold;
-	font-style: italic;
-	margin-top: -30px;
-}
-
-th, td {
-  padding: 15px;
-}
-
-
-img {
-	border-radius: 50%;
-	object-fit: cover;
-	object-position: 50 50;
-
-}
-
-img.thumbnail {
-	/*border-radius: 50%;*/
-	height: 300px;
-	object-fit: cover;
-	object-position: 100% 50;
-	opacity: 1;
-    transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
-}
-
-img.thumbnail:hover {
-	opacity: 0.2;
-    transition: opacity .2s ease-out;
-    -moz-transition: opacity .2s ease-out;
-    -webkit-transition: opacity .2s ease-out;
-    -o-transition: opacity .2s ease-out;
-}
-
-img.display {
-	border-radius: 0;
-}
-
-#navbar {
-	height: 20px;
-	background-color: #ffffff;
 	position: relative;
-	text-align: right;
-	padding: 10px;
-	padding-top: 20px;
+	text-align: left;
+	padding-left: 2%;
+	padding-top: 1%;
 	width: auto;
-
-}
-
-
-
-#sidebar {
-	float: left;
-	width: 20%;
-	margin: 0;
-	padding: 5px;
-	padding-top: 100px;
-	margin-left: 50px;
-	margin-right: 30px;
-	border-style: solid;
-  	border-width: 5px;
-  	border-color: #72ccca;
-  	border-width: 0px 0px 4px 0px;
-	background: #ffffff;
-}       
- 
-
-#content {
-	width: 70%;
-	padding-left: 20px;
-	padding-right: 0px;
-	margin: 0;
-	border: 0;
-	background: #ffffff;
-	overflow-x: hidden;
-}
-  
- #row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-#photos li {
-	list-style: none;
-	margin: 10px;
-	margin-top: 0px;
-	border: 0;
-	display: inline;
-	float: left;
-    overflow: hidden;
-}
-
-
-#photos li:after {
-  content: "";
-  clear: both;
-  display: table;
-}
- 
- #container {
- 	position: relative;
- 	height: auto;
- 	width: 100%;
- 	margin: 0 auto;
- }
-
- .hovertitle {
- 	position: absolute;
- 	top: 40%;
- 	left: 20%;
- 	background: transparent;
- 	color: #000000;
- 	font-size: 30px;
- 	font-family: "Times New Roman";
- 	font-style: bold;
- 	font-color:#72ccca;
- 	visibility: hidden;
- 	opacity: 0;
- 	transition: opacity .2s ease-out;
-    -moz-transition: opacity .2s ease-out;
-    -webkit-transition: opacity .2s ease-out;
-    -o-transition: opacity .2s ease-out;
- }
-
- #container:hover .hovertitle{
- 	visibility: visible;
- 	opacity: 1;
-  	transition: opacity .2s ease-out;
-    -moz-transition: opacity .2s ease-out;
-    -webkit-transition: opacity .2s ease-out;
-    -o-transition: opacity .2s ease-out;
-
- }
-
-/* Float */
-#hvr-float {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-#hvr-float:hover, #hvr-float:focus, #hvr-float:active {
-  -webkit-transform: translateY(-8px);
-  transform: translateY(-8px);
-}
-
-#container:hover .overlay {
-  opacity: 1;
-}
-
-#footer {
-	width: auto;
-	height: 70px;
-	margin: 0;
-	margin-right: 30px;
-	padding: 20px;
-	border: 0;
-	position: relative;
-
-	background: #ffffff;
-	text-align: right;
-	clear:both;}  
-
-
-
-/* Tablet Styles */
-@media only screen and  (max-width: 640px) {
-	#sidebar {
-	float: left;
-	width: 90%;
-	padding-top: 20px;
-	}
-
-	#content {
-	width: 100%;
-	padding-left: 40px;
-	}
-
-	img.thumbnail {
-		height: 90%;
-		width: 90%;
-	}
-
-	body {
-		font-size: 25px;
-	}
-}
-
-
-/*small desktop*/
-@media only screen and (min-width: 641px) and (max-width: 1200px) {
-	#sidebar {
-	float: left;
-	width: 90%;
-	padding-top: 20px;
-	}  
-
-	#content {
-	padding: 0;
-	padding-left: 40px;
-	width: 100%;
-
-	}
-
-	#photos li {
-	height: 25%;
-	width: 25%;
-
-	}
-
-	img.thumbnail {
-		width: 100%;
-		height: auto;
 	}
 
 
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 1201px) {
-  body {
-    background-color: #ffffff;
-  }
-
-  #photos li {
-  	height: 30%;
-	width: 30%;
+	.typewriter h3 {
+	  overflow: hidden; /* Ensures the content is not revealed until the animation */
+	  border-right: .15em solid #2e2e2e; /* The typwriter cursor */
+	  white-space: nowrap; /* Keeps the content on a single line */
+	  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	  letter-spacing: .5em; /* Adjust as needed */
+	  animation: 
+	    typing 3.5s steps(40, end),
+	    blink-caret .75s step-end infinite;
 	} 
 
-	img.thumbnail {
-	width: 100%;
-	height: auto;
+	/* The typing effect */
+	@keyframes typing {
+	  from { width: 0 }
+	  to { width: 100% }
 	}
-}
 
+	/* The typewriter cursor effect */
+	@keyframes blink-caret {
+	  from, to { border-color: transparent }
+	  50% { border-color: #2e2e2e; }
+	}
 
