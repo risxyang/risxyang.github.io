@@ -1,11 +1,11 @@
 	body {background-color: #1f1f1f;}
-	h3 { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; padding-top: 5%; letter-spacing: .5em;} 
-	h4 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
-	h5 { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; background-color: #2e2e2e; }
-	h6 { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; background-color: #2e2e2e; padding-top: 1%; padding-bottom: 1%; }
+	h3 { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 32px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; padding-top: 5%; letter-spacing: .5em;} 
+	h4 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+	h5 { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; background-color: #2e2e2e; }
+	h6 { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; background-color: #2e2e2e; padding-top: 1%; padding-bottom: 1%; }
 
-	p { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
-	ul { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;  }
+	p { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+	ul { color: #dbdbdb; font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;  }
 	li { padding-bottom: 2%; }
 
 	a:link { background-color: #363636; color: #dbdbdb;}
