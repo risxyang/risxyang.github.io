@@ -1,4 +1,35 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+html
+{
+    display: grid;
+    justify-content: center;
+}
+
 body
 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:any-link
+{
+    color: #006570;
+}
+
+.projcontainer
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2%;
+    width: 100%;
+}
+
+.proj
+{
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
 }
