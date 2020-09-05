@@ -1,0 +1,188 @@
+html
+{
+    margin: 0;
+    width:  100%;
+}
+
+body
+{
+    font-family: sans-serif;
+    line-height: 1.5;
+    width: 100%;
+    text-transform: lowercase;
+}
+
+@font-face
+{
+    font-family:"PierSans";
+    src: url("./PierSans/PierSans-Bold.otf")
+    format('opentype');
+}
+
+@font-face
+{
+    font-family:"MontserratL";
+    src: url("./Montserrat/Montserrat-Light.ttf")
+    format('truetype');
+}
+@font-face
+{
+    font-family:"MontserratB";
+    src: url("./Montserrat/Montserrat-Bold.ttf")
+    format('truetype');
+}
+
+
+a:any-link
+{
+    color: #006570;
+}
+
+h1
+{
+    font-family: "MontserratB", sans-serif;
+    text-transform: lowercase;
+    font-size: 40px;
+}
+
+
+h3
+{
+    font-family: "MontserratB", sans-serif;
+    text-transform: lowercase;
+}
+
+h4
+{
+   font-style: italic;
+}
+
+.container
+{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1.4fr 4fr;
+    grid-gap: 10%;
+    padding: 2%;
+    padding-bottom: 5%;
+}
+
+.smolcontainer
+{
+    margin: 0 auto;
+    width: 50%;
+    height: 100vh;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+.photogallery
+{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+    margin-bottom: 2%;
+
+}
+
+.photogallery-trip
+{
+    width: 100%;
+    min-height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2%;
+    margin-bottom:2%;
+}
+
+.sidebar
+{
+    padding: 2%;
+    display: flex;
+    height: 90%;
+    /* text-align: justify; */
+    line-height: 1.5;
+}
+
+.intro
+{
+    align-self: center;
+}
+
+.projcontainer
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2%;
+    width: 100%;
+}
+
+.proj
+{
+    position: relative;
+    height: 42vh;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+  }
+  
+  .proj:hover .overlay {
+    opacity: 0.9;
+  }
+
+  .text {
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.proj-i
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.fit-i
+{
+    height: 60vh;
+    width:100%;
+    object-fit: cover;
+    margin-bottom: 2%;
+}
+
+.fit-i-thin
+{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 2%;
+}
+
+
+.proj-desc
+{
+    width: 100%;
+}
+
