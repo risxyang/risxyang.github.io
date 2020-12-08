@@ -101,3 +101,20 @@ a.other
     margin-bottom: 50%;
 }
 
+@media only screen and (max-width: 900px) {
+    .container
+    {
+        width: 94%;
+    }
+
+    .dcontainer, .projcontainer
+    {
+        grid-template-columns: 1fr;
+        grid-gap: 1%;
+    }
+
+    .proj-i
+    {
+        padding: 0;
+    }
+  }
