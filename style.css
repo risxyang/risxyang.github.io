@@ -35,7 +35,7 @@ body
     format('truetype');
 }
 
-h1 { font-family: Lekton; font-size: 42px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } 
+h1 { font-family: Lekton; font-size: 42px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 50px; } 
 
 h3 { font-family: Lekton; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } 
 
@@ -76,6 +76,61 @@ a.other
     width: 100%;
 }
 
+.articontainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+
+.artiicontainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20%;
+    width: 80%;
+    margin: 0 auto;
+
+    
+}
+
+
+
+.midcontainer
+{
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+.tricontainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4%;
+    width: 100%;
+}
+
+
+.art-desc
+{
+    align-self: center;
+}
+
+
+.art-i
+{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    padding: 2%;
+}
+
 .d-i
 {
     display: block;
@@ -99,6 +154,16 @@ a.other
     grid-gap: 4%;
     width: 100%;
     margin-bottom: 50%;
+}
+
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
 }
 
 @media only screen and (max-width: 900px) {
