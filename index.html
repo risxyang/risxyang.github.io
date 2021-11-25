@@ -10,12 +10,126 @@
   <title>Christine Yang</title>
   </head>
   <body>
-      <div class="navbar">
+      <!-- <div class="navbar"> -->
           <!-- <h3><a href="index.html" class="other">about</a> / <a href="projects.html" class="other">projects </a> / <a href="coursework.html" class="other">coursework</a></h3> -->
-      </div>
+      <!-- </div> -->
     <div class="container">
-        <p> under construction </p>
+        <!-- <p> under construction </p> -->
+        <div class="sidebar">
+          <h1>CHRISTINE YANG</h1>
+          <p>undergraduate @ yale studying computer science and comparative literature with a concentration in film and media.
+          </p>
+          <!-- <div class="smallscreen-nav">
+            <p><a href="about.html">[about] </a>
+              <a href="index.html">[projects]</a>
+              <a href="coursework.html">[coursework]</a>
+              <a href="https://www.linkedin.com/in/christineyang22/">[linkedin]</a>
+              </p>
+            </div> -->
+          <!-- <p>previously: TA & ULA for yale cs dept, expressive systems research assistant at carnegie mellon university, daad-rise scholar, exec audio producer @ yale daily news</p> -->
+        </br>
+        <div class="largescreen-nav">
+        <p><a href="about.html">[about] </a>
+        </br>
+        <a href="index.html">[projects]</a>
+      </br>
+        <a href="coursework.html">[coursework]</a>
+      </br>
+      <a href="https://www.linkedin.com/in/christineyang22/">[linkedin]</a>
+        </p>
+        </div>
+
+        <!-- <p>currently ...</p>
+        <ul>
+          <li>ULA'ing data structures</li>
+          <li>ideating w/ YSIM studio</li>
+        </ul>
+
+        <p>previously ...</p>
+        <ul>
+          <li>animator, visdev, and r&d on a narrative VR experience for festival presentation @ carnegie mellon </li>
+          <li>ta'd intro cs </li>
+          <li>exec produced attune, an audio anthology @ the ydn </li>
+          <li>brand-managed yhack</li>
+        </ul> -->
+        </div>
+        <div></div>
+        <div>
+          <div class="tabs">
+            <p>
+            <button onclick="openTab('all')">[all]</button>
+            <button onclick="openTab('code')">[code]</button>
+            <button onclick="openTab('visual')">[visual]</button>
+            <button onclick="openTab('audio')">[audio]</button>
+            <button onclick="openTab('misc')">[misc]</button>
+          </p>
+          </div>
+        <div class="scontainer">
+          <a href="projects/mnemonic.html" class="img"><div class="proj" id="all code visual"><img class="proj-i" src="./images/cesm1.png">
+            <div class="desc">
+              <div class="desc-text"> <h3>MNEMONIC</h3> <p></p></div>
+            </div>
+          </div></a>
+          <a href="projects/lumem.html" class="img"><div class="proj" id="all code visual"><img class="proj-i" src="./images/cesm3-2.gif">
+            <div class="desc">
+              <div class="desc-text"> <h3>LU-MEM</h3> <p></p></div>
+            </div>
+          </div></a>
+          <a href="projects/chroma.html" class="img"><div class="proj" id="all code visual audio"><img class="proj-i" src="./images/cesm2.png">
+            <div class="desc">
+              <div class="desc-text"> <h3>CHROMA</h3> <p></p></div>
+            </div>
+          </div></a>
+          <a href="projects/midiviz.html" class="img"><div class="proj" id="all code visual audio"><img class="proj-i" src="./images/cesm4-2.png">
+            <div class="desc">
+              <div class="desc-text"> <h3>MIDIVIZ</h3> <p></p></div>
+            </div></div></a>
+            <a href="projects/esra.html" class="img"><div class="proj" id="all visual"><img class="proj-i" src="./images/cmu-1.png">
+            <div class="desc">
+              <div class="desc-text"> <h3>CMU RESEARCH</h3> <p></p></div>
+            </div></div></a>
+            <a href="projects/lavaman.html" class="img"><div class="proj" id="all code visual"><img class="proj-i" src="./images/graphics.png">
+            <div class="desc">
+              <div class="desc-text"> <h3>LAVAMAN</h3> <p></p></div>
+            </div></div></a>
+            <a href="projects/attune.html" class="img"><div class="proj" id="all audio"><img class="proj-i" src="./images/attune.jpg">
+            <div class="desc">
+              <div class="desc-text"> <h3>ATTUNE</h3> </div>
+            </div></div></a>
+            <a href="projects/campfire.html" class="img"><div class="proj" id="all code"><img class="proj-i" src="./images/campfirecover.gif">
+            <div class="desc">
+              <div class="desc-text"> <h3>CAMPFIRE</h3></div>
+            </div></div></a>
+            <a href="projects/sceneview.html" class="img"><div class="proj" id="all misc"><img class="proj-i" src="./images/sceneview.png">
+            <div class="desc">
+              <div class="desc-text"> <h3>SCENEVIEW</h3> <p></p></div>
+            </div></div></a>
+          <a href="projects/yhack.html" class="img"> <div class="proj" id="all visual misc">
+            <img class="proj-i" src="./images/yhack.jpg">
+            <div class="desc">
+              <div class="desc-text"> <h3>YHACK 2019</h3> <p></p></div>
+            </div></div></a>
+        </div>
+        </div>
 
     </div>
+    <!-- <div class="footer"><3</div> -->
   </body>
   </html>
+
+  <script>
+    function openTab(tabName) {
+      var i;
+      var x = document.getElementsByClassName("proj");
+      for (i = 0; i < x.length; i++) {
+        if(x[i].id.includes(tabName))
+        {
+          x[i].style.display = "block";
+        }
+        else
+        {
+          x[i].style.display = "none";
+        }
+      }
+    }
+  </script>
