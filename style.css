@@ -298,9 +298,21 @@ a
   }
 
   @media only screen and (max-width: 600px) {
-    .scontainer, .tricontainer
+    .scontainer
     {
         grid-template-columns: 1fr;
+    }
+
+    .tricontainer
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .proj-iii
+    {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
     }
 
     .desc
