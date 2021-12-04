@@ -123,6 +123,19 @@ a.plain
     scroll-snap-type: y proximity;
 }
 
+.sicontainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4%;
+    margin-bottom: 8%;
+    padding-top: 12%;
+    /* margin-left: 5%; */
+    width: 100%;
+    /* overflow: scroll; */
+    scroll-snap-type: y proximity;
+}
+
 .dcontainer
 {
     display: grid;
@@ -298,7 +311,7 @@ a
   }
 
   @media only screen and (max-width: 600px) {
-    .scontainer
+    .scontainer, .sicontainer
     {
         grid-template-columns: 1fr;
     }
