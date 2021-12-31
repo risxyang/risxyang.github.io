@@ -106,7 +106,13 @@ a.plain
     line-height: 0;
     padding: 2px;
     /* transition: none; */
+    background-color:#dedede;
     
+}
+
+a.plain:hover
+{
+    background-color: #5cfffc;   
 }
 
 
@@ -199,6 +205,16 @@ a.plain
     padding-bottom: 4%;
 }
 
+.proj-iv
+{
+    opacity: 1;
+    display: block;
+    width: 50%;
+    height: auto;
+    padding-bottom: 20%;
+    object-fit: cover;
+    padding-bottom: 4%;
+}
 
 .proj:hover .proj-i {
     opacity: 0.2;
@@ -329,13 +345,13 @@ a
         object-fit: cover;
     }
 
-    .desc
+    /* .desc
     {
         position: relative;
         top: 10%;
         left: 50%;
-        opacity: 1;
-    }
+        /* opacity: 1; */
+    } */
 
     .sidebar
     {
@@ -346,10 +362,10 @@ a
         opacity: 1;
       }
 
-      .desc-text
+      /* .desc-text
       {
         padding: 3px 5px;
-      }
+      } */
 
 
   }
